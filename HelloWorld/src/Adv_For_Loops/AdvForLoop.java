@@ -1,4 +1,4 @@
-package HelloWorld.src.Adv_For_Loops;
+package Adv_For_Loops;
 import java.util.Scanner;
 
 public class AdvForLoop {
