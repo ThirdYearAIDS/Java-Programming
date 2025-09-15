@@ -1,0 +1,1 @@
+click on the src files, not the bin ones
