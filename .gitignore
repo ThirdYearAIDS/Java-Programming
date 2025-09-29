@@ -1,1 +1,15 @@
-/.metadata/
+# Ignore everything by default
+*
+
+# But allow directories (needed to traverse to src folders)
+!*/
+
+# Allow src folders and everything inside them
+!src/
+!src/**
+
+# Allow .gitignore files
+!.gitignore
+
+# Allow README.md
+!README.md
