@@ -1,1 +1,1 @@
-click on the src files, not the bin ones
+click on the src files, not the other ones
