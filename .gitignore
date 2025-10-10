@@ -1,0 +1,10 @@
+echo "
+# Build and IDE files
+bin/
+out/
+.idea/
+.settings/
+*.iml
+.classpath
+.project
+" > .gitignore
