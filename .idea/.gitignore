@@ -1,3 +1,16 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore compiled class files
+bin/
+out/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
