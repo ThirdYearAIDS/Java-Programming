@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class ArrayListEx {
 	public static void main(String[] args) {
 
-		ArrayList<Integer> nums = new ArrayList<Integer>();
+		List<Integer> nums = new ArrayList<Integer>();
 		
 		nums.add(10);
 		nums.add(20);
@@ -14,26 +14,17 @@ public class ArrayListEx {
 		nums.add(40);
 		nums.add(50);
 		
-		System.out.println("Original ArrayList Elements:");
-		for (int i : nums) {
-			System.out.print(i + " ");
-		}
+		System.out.println("LinkedList Elements: " + nums);
+		System.out.println("LinkedList Size: " + nums.size());
+		System.out.println("LinkedList contains 30? " + nums.contains(30));
 		
-		nums.get(0);
+		System.out.println("\nFirst element: " + nums.get(0));
 		
 		nums.set(3, 70);
+		System.out.println("\nModified ArrayList Elements: " + nums);
 		
-		System.out.println("\n\nModified ArrayList Elements:");
-		for (int i : nums) {
-			System.out.print(i + " ");
-		}
-		
-		nums.remove(1);
-		
-		System.out.println("\n\nRemaining ArrayList Elements:");
-		for (int i : nums) {
-			System.out.print(i + " ");
-		}
+		nums.remove(1);		
+		System.out.println("\nRemaining ArrayList Elements: " + nums);
 		
 		nums.clear();
 
