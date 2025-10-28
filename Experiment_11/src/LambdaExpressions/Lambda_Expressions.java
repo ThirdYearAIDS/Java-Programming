@@ -2,6 +2,7 @@ package LambdaExpressions;
 
 interface Lambda1 {
 	void NoParams();
+    //void someParams(int a, int b);
 }
 
 interface Lambda2 {
@@ -17,7 +18,9 @@ public class Lambda_Expressions {
 	public static void main(String[] args) {
 
 		Lambda1 l1 = () -> System.out.println("This lambda expression has no parameters.");
+        //Lambda1 l4 = (a, b) -> System.out.println("A + B = " + (a + b));
 		l1.NoParams();
+        //l4.someParams(5, 7);
 		
 		Lambda2 l2 = x -> System.out.println("The value of 'x' is " + x);
 		l2.oneParam(10);
